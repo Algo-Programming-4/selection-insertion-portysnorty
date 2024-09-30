@@ -1,7 +1,7 @@
 #bubble(list) - > sorted ist
 def bubble(ls):
     for i in range(len(ls) - 1):  
-        # sorts it faster by checking if already sorted early
+        # sorts it faster by checking if already sorted early 
         shortCut = True
         for j in range(len(ls) - i - 1):  
             a = ls[j]
